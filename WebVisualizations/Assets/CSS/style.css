@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
 
@@ -21,11 +21,15 @@
   
 }
 
+.navbar
+{
+  background-image: linear-gradient(to left, 111111, 555555)
+}
 /* The side navigation menu */
 .content {
   position: relative;
 }
-.sidebar {
+.container {
   width: 250px;
   margin-right: 50px;
   position: absolute;
