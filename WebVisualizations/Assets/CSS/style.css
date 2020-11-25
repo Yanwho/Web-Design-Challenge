@@ -29,16 +29,52 @@
 .content {
   position: relative;
 }
-.container {
+.project_name {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #910101;
+}
+.image_link {}
+
+.image-thumbnail{}
+
+.side-image {
   width: 250px;
   margin-right: 50px;
   position: absolute;
-  top: 0;
+  top: 100px;
   right: 0;
   padding: 0;
-  text-align: left;
-  border: 1px solid red;
+  text-align: center;
+  /* border: 1px solid red; */
 }
+
+.col-sm-2 {
+  width: 250px;
+  margin-right: 325px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  padding: 0;
+  text-align: center;}
+ 
+
+
+.gap-10 { 
+	width:100%; 
+	height:10px; 
+} 
+.gap-20 { 
+	width:100%; 
+	height:20px; 
+} 
+.gap-30 { 
+	width:100%; 
+	height:30px; 
+} 
+	 
 .sidebarcontents {
   padding: 5px 0px 5px 0px;
 }
