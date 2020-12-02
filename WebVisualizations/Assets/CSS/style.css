@@ -46,6 +46,13 @@
 {
   background-image: linear-gradient(to left, 111111, 555555)
 }
+
+.text-left {
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+}
+
+
 /* The side navigation menu */
 .content {
   position: relative;
