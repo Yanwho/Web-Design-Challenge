@@ -10,13 +10,13 @@
 }
 
 .navbar.navbar-light.navbar-expand-md {
-  background: linear-gradient(110deg, rgb(241,223,61), rgb(154,154,154) 65%, rgb(70,67,215) 100%);
+  background: linear-gradient(110deg, yellow, blue 100%);
 }
 
 .dropdown-toggle {
   font-size: 24px;
   margin: 10px;
-  color: rgb(236,241,12);
+  color: yellow;
 }
 
 .navbar-toggler-icon {
@@ -25,6 +25,18 @@
   border-width: 0px;
 }
 
+
+#l-col-h1 {
+  text-align: left;
+  color: blue;
+  text-shadow: 1px 1px 2px yellow;
+}
+
+#r-col-h2 {
+  text-align: center;
+  color: blue;
+  text-shadow: 1px 1px 2px yellow;
+}
 @media (min-width:768px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
@@ -33,7 +45,9 @@
     justify-content: flex-start;
   }
 }
-
+.row {
+  padding: 10px;
+}
 
 
 .navbar
@@ -43,7 +57,7 @@
 
 .text-left {
   font-family: 'PT Serif', serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #navcol-1 {
@@ -51,8 +65,9 @@
 }
 
 .mr-auto {
-  font-size: 24px;
+  font-size: 35px;
 }
+
 
 /* .sidebar_image {
   width: 175px; 
