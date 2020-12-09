@@ -1,16 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.jumbotron {
+  /* padding: 2rem 1rem; */
+  /* margin-bottom: 2rem; */
+  background-color: #b6b9bd;
+  /* border-radius: .3rem; */
+}
+
+.testcolumn {
+  background-color: lightgray;
+}
+
+.testcolumn2 {
+  background-color: rgb(141, 31, 31);
+}
+
+.testcolumn3 {
+  background-color: rgb(147, 184, 60);
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
-  }
-@media (max-width: 768px) {
+.body {
+}
+}
+
+
+
+/* @media (max-width: 768px) {
   
 }
 @media (max-width: 576px) {
   
-}
+} */
 
 .navbar.navbar-light.navbar-expand-md {
-  background: linear-gradient(110deg, yellow, blue 100%);
+  background: linear-gradient(110deg, yellow, rgba(0, 0, 255, 0.555) 100%);
 }
 
 .dropdown-toggle {
@@ -25,14 +66,18 @@
   border-width: 0px;
 }
 
+.btn-primary {
+  margin: 5px; }
 
 #l-col-h1 {
-  text-align: left;
+  margin: 20px;
+  text-align: center;
   color: blue;
   text-shadow: 1px 1px 2px yellow;
 }
 
 #r-col-h2 {
+  margin: 20px;
   text-align: center;
   color: blue;
   text-shadow: 1px 1px 2px yellow;
@@ -46,7 +91,7 @@
   }
 }
 .row {
-  padding: 10px;
+  
 }
 
 
@@ -78,3 +123,67 @@
   width: 175px;
   height: 150px;
 } */
+
+.body {
+  background-color: rgb(133, 125, 126);
+}
+
+
+
+
+
+/* This section is the grid method */
+
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: calc(100% + 30px);
+  margin: calc(30px / -2);
+}
+
+.Grid__Item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: calc(30px / 2);
+}
+
+/* Modifiers */
+.Grid__Item--oneWhole {
+  width : 100%;
+}
+
+.Grid__Item--oneHalf {
+  width : calc(100% / 2 - 30px);
+}
+
+/* This styles the content */
+
+.Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 30px;
+  width: calc(100% - 20px);
+  margin : 10px;
+  font-size : 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/* This styles the borders */
+
+.Border {
+  border : solid 1px black;
+}
+
+.Border--red {
+  border-color: red;
+}
+
+.Border--orange {
+  border-color: orange;
+}
