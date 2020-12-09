@@ -4,6 +4,7 @@
 
 .jumbotron {
   background-color: #b6b9bd;
+  margin: 20px;
  }
 
 /*---Media Queries --*/
@@ -79,6 +80,13 @@
   font-family: 'PT Serif', serif;
   font-size: 28px;
 }
+
+.img.wrap {
+  float: right
+}
+
+
+        
 
 #navcol-1 {
   opacity: 1;
