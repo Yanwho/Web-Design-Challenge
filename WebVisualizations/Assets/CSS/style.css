@@ -78,11 +78,11 @@
 
 .text-left {
   font-family: 'PT Serif', serif;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .img.wrap {
-  float: right
+  float: right;
 }
 
 
@@ -94,4 +94,10 @@
 
 .mr-auto {
   font-size: large;
+}
+
+#home {
+  color: black;
+  align: center;
+  
 }
